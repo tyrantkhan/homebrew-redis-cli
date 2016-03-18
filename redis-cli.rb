@@ -10,7 +10,7 @@ class RedisCli < Formula
   sha256 "b2a791c4ea3bb7268795c45c6321ea5abcc24457178373e6a6e3be6372737f23"
 
   def install
-    system "make redis-cli", "install"
+    system "make redis-cli"
   end
 
   test do
