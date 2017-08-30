@@ -2,7 +2,7 @@ class RedisCli < Formula
   desc "Install the redis-cli only."
   homepage "https://github.com/ringohub/homebrew-redis-cli"
   version "4.0.1"
-  #sha256 "b2a791c4ea3bb7268795c45c6321ea5abcc24457178373e6a6e3be6372737f23"
+  sha256 "9824a7906b9f742c34a205e552d7b8fcc4b2790832a6b1a14907e37f435328b0"
   url "https://github.com/antirez/redis/archive/#{version}.tar.gz"
 
   def install
