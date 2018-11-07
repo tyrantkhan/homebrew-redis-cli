@@ -1,6 +1,6 @@
 # homebrew-redis-cli
 
-Install only the [redis-cli](http://redis.io/) via homebrew.
+Install a [redis-cli](http://redis.io/) via homebrew.
 
 ## Install
 
