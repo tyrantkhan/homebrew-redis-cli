@@ -6,7 +6,7 @@ class RedisCli < Formula
   url "https://github.com/antirez/redis/archive/#{version}.tar.gz"
 
   def install
-    system "make redis-cli"
+    system "make redis-cli BUILD_TLS=yes"
     bin.install "./src/redis-cli"
   end
 
